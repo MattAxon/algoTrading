@@ -1,0 +1,5 @@
+{
+    "description": "This is an equal weight S&P 500 index. Input the size of your portfolio and your email to recieve a spreadsheet containing the trades you would need to make to mimic an equal weight version of the S&P 500 index.",
+    "url": "http://localhost:5000/SP500",
+    "image": "/images/SP500.png"
+}

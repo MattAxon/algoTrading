@@ -1,0 +1,5 @@
+{
+    "description": "This is a description.",
+    "url": "http://localhost:5000/value",
+    "image": "/images/valuePicking.png"
+}
