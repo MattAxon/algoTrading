@@ -13,15 +13,12 @@ export default function strategy({ data, strategy }) {
         catch { console.log('sucsess') }
 
     }
-    var strat = strategy
-    if (strat == 'SP500') {
-        strat = 'S&P 500'
-    }
+
     return (
         <div>
             <div className='text-white text-center'>
-                <h1 className='pb-8'>{strat}</h1>
-                {data.image == '/images/SP500.png' ? <Image className='mt-4' height={300} width={600} src={data.image} /> : <Image className='' height={190} width={875} src={data.image} />}
+                <h1 className='pb-8'>{data.title}</h1>
+                {data.image == '/images/SP500.png' ? <Image className='mt-4' height={253} width={475} src={data.image} /> : <Image className='' height={250} width={1266} src={data.image} />}
 
                 <h2 className='mx-8 md:mx-20'>{data.description}</h2>
                 <form className='my-4  py-6 rounded-sm mx-auto md:w-1/2 w-10/12 bg-neutral-700' onSubmit={handleSubmit}>

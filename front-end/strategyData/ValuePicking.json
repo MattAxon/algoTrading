@@ -1,5 +1,6 @@
 {
     "description": "This is a description.",
+    "title": "Value Picking Strategy",
     "url": "http://localhost:5000/value",
     "image": "/images/valuePicking.png"
 }

@@ -15,7 +15,7 @@ export default function Home() {
           <Image src={'/images/index.jpg'} height={500} width={1535} />
           <article className="text-lg mt-6 text-white md:mx-16 mx-4">
             <p className="">
-              Alorithmic trading has exploded in recent years thanks to advancements
+              Algorithmic trading has exploded in recent years thanks to advancements
               in artificial intelligence and data science. Algorithmic trading 
               allows traders to trade based off information gathered through tools
               like sentiment analysis and satellite footage monitoring. All of 

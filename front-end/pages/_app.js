@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   }
 ]
   return (
-    <div className="bg-neutral-800 h-screen">
+    <div className="bg-neutral-800 h-fit min-h-screen">
       <Navbar primaryColor={'bg-neutral-800'} secondaryColor={'hover:bg-neutral-600'} variant={'light'} title={'Algorithmic Trading'} links={links} />
       <Component {...pageProps} />
     </div>
